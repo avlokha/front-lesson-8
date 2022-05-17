@@ -24,6 +24,7 @@ body {
   flex-wrap: wrap;
 }
 .nav-ul a {
+  font-family: "Helvetica Neue Regular";
   color: white;
 }
 .nav-ul li:hover {
@@ -41,6 +42,7 @@ li {
 }
 
 .kontakti a {
+  font-family: "Helvetica Neue Bold";
   background-color: white;
   color: black;
   padding: 12px;
@@ -54,24 +56,55 @@ section {
 section .photo {
   width: 500px;
   display: flex;
-  position: relative;
 }
 section .photo img {
   width: 100%;
 }
 .firstimg {
   margin-top: 25%;
+  /* transform: rotate(-45deg); */
 }
 .secondimg {
   margin-top: 10%;
 }
 .lastimg {
   margin-top: 25%;
+  /* transform: rotate(45deg); */
+}
+.last-div {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.dots {
+  display: flex;
+  margin-left: 30%;
 }
 .dots :nth-child(1) {
+  background-color: white;
   border-radius: 10px;
   width: 10px;
   height: 10px;
-  background-color: #ffffff;
-  position: fixed;
+}
+.dots :nth-child(2) {
+  background-color: white;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  opacity: 30%;
+}
+.dots :nth-child(3) {
+  background-color: white;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  opacity: 15%;
+}
+.arrow {
+  margin-left: 45%;
+  margin-top: -1.2%;
+}
+.arrow :nth-child(1) {
+  transform: rotate(180deg);
+  opacity: 15%;
 }
