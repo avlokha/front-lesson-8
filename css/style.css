@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  background-color: blue;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-ul a {
+  color: white;
+}
+.nav-ul li:hover {
+  font-size: 20px;
+  transition-property: all;
+  transition-delay: 0.2s;
+}
+li {
+  margin-left: 45px;
+}
+.cont {
+  max-width: 1920px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.kontakti a {
+  background-color: white;
+  color: black;
+  padding: 12px;
+}
+section {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+section .photo {
+  width: 500px;
+  display: flex;
+  position: relative;
+}
+section .photo img {
+  width: 100%;
+}
+.firstimg {
+  margin-top: 25%;
+}
+.secondimg {
+  margin-top: 10%;
+}
+.lastimg {
+  margin-top: 25%;
+}
+.dots :nth-child(1) {
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  position: fixed;
+}
